@@ -11,9 +11,11 @@ use Laravel\Sanctum\HasApiTokens;
 use Spatie\Activitylog\LogOptions;
 use Spatie\Activitylog\Traits\CausesActivity;
 use Spatie\Activitylog\Traits\LogsActivity;
+use Spatie\Multitenancy\Models\Concerns\UsesTenantConnection;
 
 class User extends Authenticatable
 {
+    Use UsesTenantConnection;
     use CausesActivity;
     use HasApiTokens, HasFactory, Notifiable;
     use Sortable;

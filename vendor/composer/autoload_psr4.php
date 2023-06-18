@@ -40,6 +40,8 @@ return array(
     'Symfony\\Component\\CssSelector\\' => array($vendorDir . '/symfony/css-selector'),
     'Symfony\\Component\\Console\\' => array($vendorDir . '/symfony/console'),
     'Svg\\' => array($vendorDir . '/phenx/php-svg-lib/src/Svg'),
+    'Spatie\\Multitenancy\\Database\\Factories\\' => array($vendorDir . '/spatie/laravel-multitenancy/database/factories'),
+    'Spatie\\Multitenancy\\' => array($vendorDir . '/spatie/laravel-multitenancy/src'),
     'Spatie\\LaravelPackageTools\\' => array($vendorDir . '/spatie/laravel-package-tools/src'),
     'Spatie\\Activitylog\\' => array($vendorDir . '/spatie/laravel-activitylog/src'),
     'SocialiteProviders\\Okta\\' => array($vendorDir . '/socialiteproviders/okta'),

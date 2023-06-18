@@ -6,7 +6,7 @@
 
       <!-- /.login-logo -->
       <div style = "background-color: #ffffffbd; border-top: 3px solid #007bff;"class="card card-outline card-primary col-lg-4 col-md-6 col-sm-8 ml-2rem">
-     
+    
         <div class="card-header text-center">
           <p class="h1 mb-0" style="font-size:2.3rem;"> <img class="mb-0 ml-0" src="{{url('/hr360-3-noBG.png')}}"  alt="" style=" width:150px;height:50px;"></p>
           @if (session('success'))
@@ -20,7 +20,7 @@
           
         <!-- <p class="h1 mb-0" style="font-size:2.3rem;"> <img class="mb-0 ml-0" src="{{url('/okta.png')}}"  alt="" style=" width:60px;height:20px;"></p> -->
           <!-- <p class="login-box-msg pr-0 pb-3 pl-0">Sign in to start your session</p> -->
-<!-- 
+
   test
           <form action="{{ route('login') }}" method="post">
             @csrf
